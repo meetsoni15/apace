@@ -18,7 +18,6 @@ const (
 // When the algorithm starts, the seed is the initial value on which the generator operates.
 // The most important and difficult part of the generators is to provide a seed that is close to a truly random number.
 func init() {
-	//rand.Seed(time.Now().UTC().UnixNano())
 	var b [8]byte
 	_, err := crypto_rand.Read(b[:])
 	if err != nil {
