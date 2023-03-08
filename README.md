@@ -58,6 +58,17 @@ func main() {
 		fmt.Println(arr)
 	}
 
+	fmt.Println(" ")
+	fmt.Println(" //IPv4 generator  ")
+	fmt.Println(" ")
+
+	//Random IP address v4 generator
+	for i := 0; i < 5; i++ {
+		// Here we have provided argument
+		arr := apace.RandomIPv4()
+		fmt.Println(arr)
+	}
+
 }
 
 // Output:
