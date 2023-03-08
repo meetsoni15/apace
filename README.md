@@ -108,6 +108,7 @@ RMIKJJZWTBHLSWF
 
 ### Benchmark
 ```go
+go test -bench=.
 goos: darwin
 goarch: arm64
 pkg: github.com/meetsoni15/apace
