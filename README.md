@@ -108,14 +108,12 @@ RMIKJJZWTBHLSWF
 
 ### Benchmark
 ```go
-go test -bench=.
-goos: linux
-goarch: amd64
+goos: darwin
+goarch: arm64
 pkg: github.com/meetsoni15/apace
-cpu: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
-BenchmarkRandomString-8          1000000              1020 ns/op              64 B/op          2 allocs/op
-BenchmarkRandomInt-8            31447448                37.47 ns/op            0 B/op          0 allocs/op
-BenchmarkRandomArray-8            176616              6291 ns/op            2589 B/op        100 allocs/op
+BenchmarkRandomString-8          1860854               643.1 ns/op            64 B/op          2 allocs/op
+BenchmarkRandomInt-8            67795495                17.66 ns/op            0 B/op          0 allocs/op
+BenchmarkRandomArray-8            475621              2388 ns/op            2589 B/op        100 allocs/op
 PASS
-ok      github.com/meetsoni15/apace     5.652s
+ok      github.com/meetsoni15/apace     4.455s
 ```
