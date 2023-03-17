@@ -1,6 +1,6 @@
-## Apace - random string/int/array generator utility for the GoLang
+## Apace - random string/int/array/ipv4 generator utility for the GoLang
 
-This package contains a random string, array and int generator. It is a wrapper around the crypto/rand package. For array currently it supports int, int64 and string.
+This package contains a random string, array and int generator. It is a wrapper around the crypto/rand package. For array currently it supports int, int64 and string. Support for IPV4 added.
 
 ### Usage
 ```
